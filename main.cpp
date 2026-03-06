@@ -1,8 +1,8 @@
 #include <iostream>
 #include <conio.h>
 #include <ctime>
-using namespace std;
 
+using namespace std;
 
 //카드를 3장씩 받음
 //총합이 21이 넘으면 짐
@@ -78,7 +78,7 @@ int main()
 				switch (RandomJQK)
 				{
 				case 0:
-					cout << 'j' << ' ';
+					cout << 'J' << ' ';
 					break;
 				case 1:
 					cout << 'Q' << ' ';
